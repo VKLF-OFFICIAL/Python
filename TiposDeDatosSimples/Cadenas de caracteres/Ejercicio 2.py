@@ -1,5 +1,5 @@
-nombre = input("Ingresa tu nombre >> ")
-nombreUp = nombre.upper()
-cuenta = len(nombre)
-
-print(f"El nombre en mayuscula es {nombreUp} y el numero de letras {cuenta}.")
+nombre_completo = str(input("Ingresa tú nombre completo >> "))
+nU = nombre_completo.upper()
+nL = nombre_completo.lower()
+nT = nombre_completo.title()
+print(f"Nombre completo con todo mayúsculas {nU} y con todo minúsculas {nL} y con la primera letra mayuscula {nT}")
