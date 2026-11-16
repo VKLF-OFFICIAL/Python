@@ -1,3 +1,3 @@
 asignaturas = ["Matemáticas", "Física", "Química", "Historia", "Lengua"]
 
-print(asignaturas)
+print(asignaturas)  
